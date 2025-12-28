@@ -1,0 +1,146 @@
+/* login */
+
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/017/586/735/non_2x/natural-landscape-silhouetted-hills-mountains-and-birds-with-cold-weathers-and-illustrations-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    border: 2px solid rgba(255, 255, 255, 0.918);
+    border-radius: 20px;
+    margin: 100px 0px 0px 485px;
+    width: 24vw;
+    height: 70vh;
+    background-color: #ffffff00;
+    backdrop-filter: blur(10px);
+}
+
+.form p {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.upper input {
+    padding: 0px 0px 0px 12px ;
+    margin: 3px 0px 0px 20px;
+    height: 7vh;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.811);
+    width: 19vw;
+    outline: none;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.662);
+    
+}
+
+.upper :placeholder-shown {
+    margin: 3px 0px 0px 20px;
+    height: 7vh;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.811);
+    width: 19vw;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+
+.upper img {
+    height: 15px;
+    width: 15px;
+    margin: 0px 0px -38px 245px;
+}
+
+.checkbox {
+    font-weight: lighter;
+    font-size: smaller;
+    margin: 10px 0px 0px 17px;
+    color: white;
+}
+
+.pass p {
+    margin: -15px -147px 0px 0px;
+    font-size: small;
+    font-weight: lighter;
+}
+
+button {
+    margin: 13px 0px 0px 20px;
+    border-radius: 30px;
+    height: 8vh;
+    background-color: white;
+    width: 20vw;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.footer p {
+    margin: 15px 50px 0px 0px;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.footer p:last-child {
+    margin: -15px 0px 0px 120px;
+    font-size: small;
+    font-weight: bold;
+}
+
+/* --- Responsive Adjustments --- */
+
+@media (max-width: 1024px) {
+    .form {
+        margin: 50px auto; /* Center the form */
+        width: 50vw;
+        height: auto;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .form {
+        width: 80vw;
+        margin: 30px auto;
+    }
+
+    .upper input, .upper :placeholder-shown {
+        width: 80%; /* Expand inputs for touch */
+        margin: 10px auto;
+        display: block;
+    }
+
+    .upper img {
+        display: none; /* Hide icons if they overlap on small screens */
+    }
+
+    button {
+        width: 85%;
+        margin: 20px auto;
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .form {
+        width: 95vw;
+        border-radius: 10px;
+    }
+
+    .form p {
+        font-size: x-large;
+    }
+
+    .pass p {
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+
+    .footer p:last-child {
+        margin: 5px 0 0 0;
+        text-align: center;
+    }
+}
