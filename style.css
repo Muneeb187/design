@@ -406,9 +406,11 @@
     cursor: pointer;
   }
 
+
   /* page3 images alignment */
   .pg3 div:first-child {
-    font-size: large;
+    font-size: x-large;
+    color: white;
     font-weight: bolder;
     padding: 19px 19px;
     text-align: center;
