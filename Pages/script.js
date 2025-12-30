@@ -1,7 +1,7 @@
 
 alert("welcome to HYDRO ofiicial site ! ")
 
-console.log('JS loaded');
+ console.log('JS loaded');
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 

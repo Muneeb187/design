@@ -274,7 +274,6 @@
     height: 50vh;
     width: 40vw;
     box-shadow: 2px 7px 12px 5px #80808040;
-    /* box-shadow: 2px 7px 7px 5px #80808040; */
   }
 
   .card1 div:nth-child(1) {
@@ -408,11 +407,12 @@
     cursor: pointer;
   }
 
-
   /* page3 images alignment */
-  .pg3 div:first-child {
+
+  .pg3>div {
+    background-color: transparent;
     font-size: x-large;
-    color: white;
+    color:white;
     font-weight: bolder;
     padding: 19px 19px;
     text-align: center;
@@ -619,11 +619,6 @@
     margin: -36px 70px;
   }
 
-  /* 
-.small4 p:first-child {
-    text-align: left;
-    margin: 482px 949px;
-    } */
   .small4>div {
     display: flex;
     flex-direction: row;
