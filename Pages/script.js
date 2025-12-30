@@ -20,5 +20,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 // login / signup
 
 document.getElementById("Login").onclick = function() {
-    window.location.href = "Form.html"; // Change this to your file name
+  window.location.href = "../Form/Form.html"; // navigate to sibling Form/Form.html
 };
