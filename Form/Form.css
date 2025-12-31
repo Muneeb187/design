@@ -6,6 +6,22 @@ body {
     background-size: cover;
 }
 
+.message {
+    display: none;
+    background:  linear-gradient(135deg, rgb(104, 203, 104) 0%, rgba(26, 151, 26, 0.85) 100%);
+    color: #ffffff;
+    padding: 10px 14px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 12px auto 0;
+    font-weight: 600;
+    font-size: 13px;
+    opacity: 0.95;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    max-width: 90%;
+    letter-spacing: 0.3px;
+}
+
 .form {
     border: 2px solid rgba(255, 255, 255, 0.918);
     border-radius: 20px;
